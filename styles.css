@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+    color: #fff;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: linear-gradient(to bottom, #ff9966, #ff5e62);
+    padding: 20px;
+}
+
+.sidebar-header h2 {
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar ul li a i {
+    margin-right: 12px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    padding: 10px 40px 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+.search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.profile-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color:lightgray;
+}
+
+#profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ff6b6b;
+    margin-bottom: 20px;
+}
+
+#username {
+    font-size: 28px;
+    color: #ff5e62;
+    margin: 10px 0;
+}
+
+#bio {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stats div {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats span:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff9966;
+}
+
+.stats span:last-child {
+    color: #555;
+}
+
+.details p {
+    margin: 12px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+#website {
+    color: #4ecdc4;
+    text-decoration: none;
+}
+
+#website:hover {
+    text-decoration: underline;
+}
+
+#follow-btn {
+    background: linear-gradient(to right, #ff6b6b, #ff9966);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+#follow-btn:hover {
+    transform: scale(1.05);
+}
+
+.posts-section, .follow-section {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color:lightgray;
+}
+
+.posts-section h3, .follow-section h3 {
+    color: #ff5e62;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.post-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.post-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.post-item p {
+    color: #333;
+    font-size: 15px;
+}
+
+.follow-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.followers, .following {
+    width: 48%;
+}
+
+.followers ul, .following ul {
+    list-style: none;
+}
+
+.followers ul li, .following ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.followers ul li img, .following ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.followers ul li span, .following ul li span {
+    color: #333;
+    font-size: 15px;
+}

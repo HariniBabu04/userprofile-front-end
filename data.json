@@ -1,0 +1,56 @@
+{
+    "profilePic": "pic2.jpg",
+    "username": "jane_ben",
+    "bio": "Tech enthusiast | Open-source contributor | Coffee lover",
+    "posts": [
+        {
+            "content": "Just launched my new portfolio website! Check it out!",
+            "image": "pic7.jpg",
+            "date": "2025-07-01"
+        },
+        {
+            "content": "Excited to attend the upcoming tech conference! #Tech2025",
+            "image": "pic8.jpg",
+            "date": "2025-06-28"
+        },
+        {
+            "content": "Sharing my latest blog post on AI trends.",
+            "image": "pic9.jpg",
+            "date": "2025-06-20"
+        }
+    ],
+    "followers": [
+        {
+            "name": "John Smith",
+            "username": "johnsmith",
+            "avatar": "pic1.jpg"
+        },
+        {
+            "name": "Alice Johnson",
+            "username": "alicej",
+            "avatar": "pic3.jpg"
+        },
+        {
+            "name": "Bob Wilson",
+            "username": "bobw",
+            "avatar": "pic5.png"
+        }
+    ],
+    "following": [
+        {
+            "name": "Tech Guru",
+            "username": "techguru",
+            "avatar": "pic6.jpg"
+        },
+        {
+            "name": "Sarah",
+            "username": "sarah",
+            "avatar": "pic4.jpg"
+        }
+    ],
+    "name": "Jane Ben",
+    "location": "CHENNAI",
+    "joined": "March 2021",
+    "website": "https://janeben.com",
+    "email": "jane.ben@gmail.com"
+}
